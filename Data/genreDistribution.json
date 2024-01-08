@@ -1,0 +1,61 @@
+{
+    "1950": {
+        "pop": 325,
+        "country": 268,
+        "blues": 360,
+        "jazz": 408,
+        "rock": 107
+    },
+    "1960": {
+        "pop": 1096,
+        "country": 963,
+        "blues": 567,
+        "jazz": 404,
+        "reggae": 80,
+        "rock": 299
+    },
+    "1970": {
+        "pop": 1057,
+        "country": 877,
+        "blues": 654,
+        "jazz": 547,
+        "reggae": 269,
+        "rock": 547
+    },
+    "1980": {
+        "pop": 1192,
+        "country": 1003,
+        "blues": 780,
+        "jazz": 501,
+        "reggae": 361,
+        "rock": 832,
+        "hip hop": 6
+    },
+    "1990": {
+        "pop": 1081,
+        "country": 952,
+        "blues": 566,
+        "jazz": 572,
+        "reggae": 511,
+        "rock": 740,
+        "hip hop": 35
+    },
+    "2000": {
+        "pop": 1113,
+        "country": 701,
+        "blues": 790,
+        "jazz": 706,
+        "reggae": 604,
+        "rock": 668,
+        "hip hop": 199
+    },
+    "2010": {
+        "pop": 1178,
+        "country": 681,
+        "blues": 887,
+        "jazz": 707,
+        "reggae": 673,
+        "rock": 841,
+        "hip hop": 664
+    }
+}

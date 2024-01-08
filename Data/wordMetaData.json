@@ -1,0 +1,150 @@
+{
+    "0.5": [
+        {
+            "decade": 1950,
+            "totalWords": 8212,
+            "topWordsCount": 40
+        },
+        {
+            "decade": 1960,
+            "totalWords": 12028,
+            "topWordsCount": 60
+        },
+        {
+            "decade": 1970,
+            "totalWords": 14386,
+            "topWordsCount": 70
+        },
+        {
+            "decade": 1980,
+            "totalWords": 17821,
+            "topWordsCount": 80
+        },
+        {
+            "decade": 1990,
+            "totalWords": 19893,
+            "topWordsCount": 90
+        },
+        {
+            "decade": 2000,
+            "totalWords": 20216,
+            "topWordsCount": 100
+        },
+        {
+            "decade": 2010,
+            "totalWords": 22850,
+            "topWordsCount": 110
+        }
+    ],
+    "1": [
+        {
+            "decade": 1950,
+            "totalWords": 8212,
+            "topWordsCount": 80
+        },
+        {
+            "decade": 1960,
+            "totalWords": 12028,
+            "topWordsCount": 120
+        },
+        {
+            "decade": 1970,
+            "totalWords": 14386,
+            "topWordsCount": 140
+        },
+        {
+            "decade": 1980,
+            "totalWords": 17821,
+            "topWordsCount": 170
+        },
+        {
+            "decade": 1990,
+            "totalWords": 19893,
+            "topWordsCount": 190
+        },
+        {
+            "decade": 2000,
+            "totalWords": 20216,
+            "topWordsCount": 200
+        },
+        {
+            "decade": 2010,
+            "totalWords": 22850,
+            "topWordsCount": 220
+        }
+    ],
+    "1.5": [
+        {
+            "decade": 1950,
+            "totalWords": 8212,
+            "topWordsCount": 120
+        },
+        {
+            "decade": 1960,
+            "totalWords": 12028,
+            "topWordsCount": 180
+        },
+        {
+            "decade": 1970,
+            "totalWords": 14386,
+            "topWordsCount": 210
+        },
+        {
+            "decade": 1980,
+            "totalWords": 17821,
+            "topWordsCount": 260
+        },
+        {
+            "decade": 1990,
+            "totalWords": 19893,
+            "topWordsCount": 290
+        },
+        {
+            "decade": 2000,
+            "totalWords": 20216,
+            "topWordsCount": 300
+        },
+        {
+            "decade": 2010,
+            "totalWords": 22850,
+            "topWordsCount": 340
+        }
+    ],
+    "2": [
+        {
+            "decade": 1950,
+            "totalWords": 8212,
+            "topWordsCount": 160
+        },
+        {
+            "decade": 1960,
+            "totalWords": 12028,
+            "topWordsCount": 240
+        },
+        {
+            "decade": 1970,
+            "totalWords": 14386,
+            "topWordsCount": 280
+        },
+        {
+            "decade": 1980,
+            "totalWords": 17821,
+            "topWordsCount": 350
+        },
+        {
+            "decade": 1990,
+            "totalWords": 19893,
+            "topWordsCount": 390
+        },
+        {
+            "decade": 2000,
+            "totalWords": 20216,
+            "topWordsCount": 400
+        },
+        {
+            "decade": 2010,
+            "totalWords": 22850,
+            "topWordsCount": 450
+        }
+    ]
+}

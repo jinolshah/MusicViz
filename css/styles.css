@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.topbar {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;;
+    align-items: center;
+    padding: 20px;
+    width: 85%;
+    margin: 20px auto 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.title {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.topbar button {
+    background-color: #555;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.topbar button:hover {
+    background-color: #777;
+}
+
+.visualization {
+    overflow: hidden;
+    flex: 1; /* Take up remaining vertical space */
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    position: relative;
+    margin: 0 auto 20px auto; /* Center the visualization div and add margin */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#dropContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #555; */
+    width: 20%;
+}
+
+.spiderDataRow {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #333;
+    padding: 10px;
+}
+
+#spiderGraphAndDesc {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spiderMainGraph {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+#sliderContainer {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 20px 10px 20px;
+ }
+  
+#sliderBar {
+    cursor: pointer;
+    position: relative;
+    width: 75%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+  
+#arrowIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+#sliderContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+    margin-top: 5px;
+    display: flex;
+    border-radius: 8px;
+}  
+
+#spiderDesc {
+    text-align: left;
+    padding: 20px;
+    color: #333;
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+}
+
+#dropdown1div {
+    margin: 10px 0px 5px 10px;
+    border: 3px solid rgba(0, 0, 255, 0.5);
+    padding: 3px;
+    background-clip: content-box;
+}
+
+#dropdown2div {
+    margin: 5px 0px 10px 10px;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    padding: 2px;
+    background-clip: content-box;
+}
+
+#data1, #data2 {
+    text-align: left;
+    color: white;
+    width: 80%;
+    margin-top: 5px;
+    line-height: 2vw;
+    font-size: 1vw;
+}
+
+select {
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+#spiderChart {
+    flex: 1;
+    width: 100%;
+}
+
+#heatContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heatMap {
+    flex: 1;
+    width: 100%;
+}
+
+.tick text {
+    font-size: 0.8vw;
+}
+
+#note {
+    font-size: 8vw;
+    text-align: center;
+    margin: 8% 0%;
+}
+
+#heatDescription {
+    font-size: 0.8vw;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 1%;
+    background-color: white;
+    width: 65%;
+}
+
+#hometext {
+    text-align: center;
+    line-height: 2;
+    margin: 0% 20%;
+}
+
+.metaInfo {
+    font-size: 0.8vw;
+    text-anchor: middle;
+}
+
+.tooltip {
+    font-size: 0.7vw;
+    text-anchor: middle;
+}
+
+/* .node:hover{
+    stroke-width: 2px !important;
+    opacity: 1 !important;
+} */
+
+/* .node {
+    stroke-width: 0px;
+    opacity: 0.8;
+} */
